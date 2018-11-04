@@ -35,27 +35,6 @@ jQuery(function ($) {
             playing = true,
             mediaPath = 'Assets/Audio/',
             extension = '',
-            tracks = [{
-                "track": 1,
-                "name": "Logic - Ballin",
-                "duration": "",
-                "file": "LogicBallin"
-            }, {
-                "track": 2,
-                "name": "Getsix - Orion",
-                "duration": "",
-                "file": "Music"
-            }, {
-                "track": 3,
-                "name": "Bazanji - Want The World",
-                "duration": "",
-                "file": "BazanjiWantTheWorld"
-            }, {
-                "track": 4,
-                "name": "Rah-C - Mayes",
-                "duration": "",
-                "file": "Mayes"
-            }],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
                     trackName = value.name,

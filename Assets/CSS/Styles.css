@@ -128,7 +128,7 @@ canvas {
 
 #cursor {
     position: absolute;
-    z-index: 1;
+    z-index: 999999;
     pointer-events: none;
     margin-left: -40px;
     margin-top: -40px;
