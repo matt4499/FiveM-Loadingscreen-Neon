@@ -20,7 +20,7 @@ files {
 	'Assets/JS/Index.js',
 	'Assets/JS/player.js',
 	'Assets/JS/progressBar.js',
-	'Assets/JS/jquery.min.js'
+	'Assets/JS/config.js'
 }
 
 loadscreen 'Index.html'
