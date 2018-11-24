@@ -1,15 +1,14 @@
-var video_ID = "k_GM1JA608Y" // ID del a vidéo YouTube
-var volume = '0' // 0 - 100 | Volume de la vidéo YouTube
+var video_ID = "uD6Qzt1vjGM" // ID del a vidéo YouTube
+var volume = '100' // 0 - 100 | Volume de la vidéo YouTube
 
 var img = "Logo.png" // Nom du fichier image de votre serveur dans : Assets/IMG
 
-var red_text = 'Atlass' // Texte en rouge
-var blue_text = 'City' // Texte en bleu
+var red_text = 'Los Santos' // Texte en rouge
+var blue_text = 'RP' // Texte en bleu
 
 // PlayList
 // N'oubliez d'ajoutez vos musiques dans le __resource.lua
-var tracks
-tracks = [{
+var tracks = [{
 	"track": 1,
 	"name": "Logic - Ballin", // Le Nom qui va s'afficher dans l'écran de chargement
 	"duration": "", // Laisser vide
